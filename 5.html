@@ -1,0 +1,7 @@
+<script>
+let str='Hello123';
+let letters=(str.match(/[a-zA-Z]/g) || []).length;
+let digits=(str.match(/\d/g) || []).length;
+console.log('Letters: '+letters); // Letters: 5
+console.log('Digits: '+digits); // Digits: 3
+</script>
